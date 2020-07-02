@@ -7,7 +7,7 @@ module.exports = {
     ['link', { rel: 'apple-touch-icon', href: '/icons/apple-touch-icon' }]
   ],
   serviceWorker: true, // 开启PWA
-  base: '/', // 部署到GitHub时的配置
+  base: '/note-github/', // 部署到GitHub时的配置
   markdown: {
     lineNumbers: false // 代码块显示行号
   },
