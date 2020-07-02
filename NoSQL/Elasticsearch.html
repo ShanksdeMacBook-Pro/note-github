@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>rem方案完美解决自适应 | 我愚蠢的欧豆豆</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    <link rel="icon" href="/note-github/icons/logo.png">
+    <link rel="manifest" href="/note-github/manifest.json">
+    <link rel="apple-touch-icon" href="/note-github/icons/apple-touch-icon">
+    <meta name="description" content="你很弱，为什么这么弱，因为你的憎恨还不够！">
+    <link rel="preload" href="/note-github/assets/css/0.styles.5a770c40.css" as="style"><link rel="preload" href="/note-github/assets/js/app.9b82b0af.js" as="script"><link rel="preload" href="/note-github/assets/js/2.2f4a691f.js" as="script"><link rel="preload" href="/note-github/assets/js/13.e07e7bd8.js" as="script"><link rel="prefetch" href="/note-github/assets/js/10.771615a9.js"><link rel="prefetch" href="/note-github/assets/js/11.d71089e8.js"><link rel="prefetch" href="/note-github/assets/js/12.972ede35.js"><link rel="prefetch" href="/note-github/assets/js/14.573beafb.js"><link rel="prefetch" href="/note-github/assets/js/15.2c0b85b9.js"><link rel="prefetch" href="/note-github/assets/js/16.e77e2c9e.js"><link rel="prefetch" href="/note-github/assets/js/17.c47a59b2.js"><link rel="prefetch" href="/note-github/assets/js/3.545ccd31.js"><link rel="prefetch" href="/note-github/assets/js/4.579aa6af.js"><link rel="prefetch" href="/note-github/assets/js/5.2318c877.js"><link rel="prefetch" href="/note-github/assets/js/6.aa2d4632.js"><link rel="prefetch" href="/note-github/assets/js/7.e09a2f21.js"><link rel="prefetch" href="/note-github/assets/js/8.f284aa60.js"><link rel="prefetch" href="/note-github/assets/js/9.b7c5dfc4.js">
+    <link rel="stylesheet" href="/note-github/assets/css/0.styles.5a770c40.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/note-github/" class="home-link router-link-active"><!----> <span class="site-name">我愚蠢的欧豆豆</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="笔记" class="dropdown-title"><span class="title">笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/note-github/Java/" class="nav-link">
+  Java
+</a></li><li class="dropdown-item"><!----> <a href="/note-github/NoSQL/" class="nav-link router-link-active">
+  NoSQL
+</a></li><li class="dropdown-item"><!----> <a href="/note-github/HTTP/" class="nav-link">
+  HTTP
+</a></li></ul></div></div><div class="nav-item"><a href="/note-github/Project/" class="nav-link">
+  Project
+</a></div><div class="nav-item"><a href="/note-github/Resume/" class="nav-link">
+  Resume
+</a></div><div class="nav-item"><a href="https://github.com/hubingliang" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="笔记" class="dropdown-title"><span class="title">笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/note-github/Java/" class="nav-link">
+  Java
+</a></li><li class="dropdown-item"><!----> <a href="/note-github/NoSQL/" class="nav-link router-link-active">
+  NoSQL
+</a></li><li class="dropdown-item"><!----> <a href="/note-github/HTTP/" class="nav-link">
+  HTTP
+</a></li></ul></div></div><div class="nav-item"><a href="/note-github/Project/" class="nav-link">
+  Project
+</a></div><div class="nav-item"><a href="/note-github/Resume/" class="nav-link">
+  Resume
+</a></div><div class="nav-item"><a href="https://github.com/hubingliang" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/note-github/NoSQL/" aria-current="page" class="sidebar-link">搞懂Z-index的所有细节</a></li><li><a href="/note-github/NoSQL/Redis.html" class="sidebar-link">2周时间掌握47个CSS技巧</a></li><li><a href="/note-github/NoSQL/MongoDB.html" class="sidebar-link">CSS清除浮动的三种方法</a></li><li><a href="/note-github/NoSQL/Elasticsearch.html" aria-current="page" class="active sidebar-link">rem方案完美解决自适应</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/note-github/NoSQL/Elasticsearch.html#什么是rem" class="sidebar-link">什么是rem</a></li><li class="sidebar-sub-header"><a href="/note-github/NoSQL/Elasticsearch.html#如何用rem解决移动端适配" class="sidebar-link">如何用rem解决移动端适配</a></li><li class="sidebar-sub-header"><a href="/note-github/NoSQL/Elasticsearch.html#参考文献" class="sidebar-link">参考文献</a></li></ul></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="rem方案完美解决自适应"><a href="#rem方案完美解决自适应" class="header-anchor">#</a> rem方案完美解决自适应</h1> <p>随着移动互联网的兴起，Web app的开发也越来越重要，与此同时页面布局也成了一个令人头痛的问题。rem的出现貌似可以完美解决移动端适配的问题。</p> <h2 id="什么是rem"><a href="#什么是rem" class="header-anchor">#</a> 什么是rem</h2> <p>说到rem自然就会想到em，我们知道em是相对于父元素的字体大小的单位，那么rem则是相对于根元素也就是<code>&lt;html&gt;</code>元素的字体大小的单位。</p> <h2 id="如何用rem解决移动端适配"><a href="#如何用rem解决移动端适配" class="header-anchor">#</a> 如何用rem解决移动端适配</h2> <p><img src="http://upload-images.jianshu.io/upload_images/4337988-bc2b886890d0962a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p> <p>通过这张图我们就可以观察到，div的宽度和高度是根据根元素<code>&lt;html&gt;</code>来决定的，根元素的字体大小为100px，然后给div的宽度和高度设置为2rem、1rem，最后生成的div的宽度为200px、高度为100px。
+也就是说我们可以通过改变根元素的字体大小，进而对页面进行等比例缩放,从而实现自适应。
+那么如何根据设备的不同来改变根元素的字体大小呢？
+我们在<code>&lt;head&gt;</code>标签里面引入这样一段js代码：</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> width <span class="token operator">=</span> document<span class="token punctuation">.</span>documentElement<span class="token punctuation">.</span>clientWidth
+<span class="token keyword">var</span> css <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+    html{
+    font-size: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>width<span class="token operator">/</span><span class="token number">10</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">px;
+    }
+    </span><span class="token template-punctuation string">`</span></span>
+document<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">&lt;style&gt;</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>css<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">&lt;/style&gt;</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+</code></pre></div><p>很简单，只做了一件事：就是把根元素的字体大小改成当前设备的宽度，然后我们在开发的时候全部根据设计稿的宽度来设置每一个元素的大小。
+如果设计稿的宽度是按照iphone5的宽度来设计的，那么开发的时候也要根据iphone的宽度也就是320px来设置。</p> <blockquote><p>不过最后不要忘了在body元素中重新设置正常的font-size，不然整个页面会垮掉！！</p></blockquote> <p>例子：如果这是我们要做的设计稿</p> <p><img src="http://upload-images.jianshu.io/upload_images/4337988-591bb00dccbcc0f0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p> <p>一个歌单的封面大小为103px，那么我们在写css的时候就要写（103/320）px，这时候你肯定会觉得很麻烦，难道我每次都要这样计算吗？
+不用，每次只要写出实际的px大小就好，px和rem的转换可以借助网站工具：
+<a href="http://520ued.com/tools/rem" target="_blank" rel="noopener noreferrer">px =&gt; rem<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> <a href="http://alurk.com/" target="_blank" rel="noopener noreferrer">功能更加强大的rem转换<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <h2 id="参考文献"><a href="#参考文献" class="header-anchor">#</a> 参考文献</h2> <ul><li><a href="http://caibaojian.com/web-app-rem.html" target="_blank" rel="noopener noreferrer">rem是如何实现自适应布局的？<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="http://caibaojian.com/rem-responsive-2.html" target="_blank" rel="noopener noreferrer">rem自适应布局的回顾总结<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/note-github/NoSQL/MongoDB.html" class="prev">
+        CSS清除浮动的三种方法
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/note-github/assets/js/app.9b82b0af.js" defer></script><script src="/note-github/assets/js/2.2f4a691f.js" defer></script><script src="/note-github/assets/js/13.e07e7bd8.js" defer></script>
+  </body>
+</html>
